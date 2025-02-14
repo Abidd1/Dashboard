@@ -1,0 +1,308 @@
+/* CSS Styling start from here */
+body{
+    background-color: rgb(121, 121, 121);
+}
+
+li{
+    background-color: white;
+    color: black;
+}
+
+section{
+    width: 85%;
+    height: 550px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 2ch;
+    margin-top: 3%;
+    margin-left: 6%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.topSection > ul{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+.topSection{
+    width: 100%;
+    height: 50px;
+}
+.topSection1 > ul{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    text-decoration: none;
+}
+
+.topSection1 > ul >li{
+    margin: 4px;
+    padding: 4px;
+    text-decoration: none;
+}
+.topOneSubSec1{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 150px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 1ch;
+    background-color: rgb(255, 255, 255);
+}
+.topOneSubSec1 > h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.topOneSubSec2 > input{
+    width: 650px;
+    height: 45px;
+    margin-left: 6px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1ch;
+    border-style: 1px black;
+}
+.task{
+    background-color: rgb(24, 23, 23);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    height: 30px;
+    border-radius: 0.5ch;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.iconFirst{
+    width: 40px;
+    height: 28px;
+    border: 1px solid black;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: transparent;
+}
+
+/* Second DIV Styling start from here */
+.secondDiv{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 1ch;
+    margin-bottom: 150px;
+}
+
+.secondDiv > h4{
+    border-radius: 1ch;
+    width: 150px;
+    height: 30px;
+    margin: 0%;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: start;
+    align-items: center;
+    align-content: center;
+}
+
+.secondDiv > h4:hover{
+background-color: black;
+color: white;
+}
+
+.secondDiv1{
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 1ch;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+/* Third Div customisation start from here */
+
+.thirdDiv{
+    width: 600px;
+    height: 250px;
+    background-color: white;
+    margin-left: 5px;
+}
+
+.thirdDiv1{
+    display: flex;
+}
+.thirdDiv1 > div{
+    width: 135px;
+    height: 145px;
+    background-color: white;
+    margin-left: 8px;
+    border-radius: 1ch;
+}
+
+.thirdDiv > h2{
+    margin-left: 5px;
+}
+
+.thirdDiv1 > div > i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:lightgreen;
+    margin-top: 4px;
+    margin-left: 4px;
+    color: black;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+/* Fourth DIV customisation Start from here */
+.fourthDiv{
+    width: 290px;
+    height: 300px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 1ch;
+}
+ .fourthDiv1{
+    width: 170px;
+    height: 8px;
+    margin-left: 10px;
+    margin-top: 25px;
+ }
+ .fourthDiv1 > div{
+    width: 170px;
+    height: 8px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 1ch;
+ }
+ .fourthDiv4{
+    display: flex;
+ }
+ .fourthDiv3{
+    width: 70px;
+ }
+
+ .fourthDiv2{
+    margin-left: 5px;
+ }
+ /* Second div start from here */
+ .fourthDiv5{
+    width: 150px;
+    height: 8px;
+    margin-left: 10px;
+    margin-top: 25px;
+ }
+ .fourthDiv5 > div{
+    width: 150px;
+    height: 8px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 1ch;
+ }
+
+ /* Third div start from here */
+
+
+/* Fifth Div Setion start fro here */
+.fifthDiv{
+    width: 285px;
+    height: 150px;
+    background-color: white;
+    border-radius: 1ch;
+    margin-top: 6px;
+}
+.fifthDiv >p{
+    margin-left: 10px;
+}
+
+.fifthDiv1 >i{
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 5px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.fifthDiv1 >p{
+    float: right;
+}
+/* Six div customisation start form here */
+
+.sixDiv{
+    width: 200px;
+    height: 160px;
+    background-color: beige;
+    border-radius: 1ch;
+    float: left;
+    margin-top: 60px;
+}
+
+.sixDiv :nth-child(1){
+    margin-left: 5px;
+}
+/* Seven DIV Start from here */
+.sevenDiv{
+    width: 600px;
+    height: 150px;
+    margin-top: 45px;
+    z-index: auto;
+    background-color: white;
+}
+.sevenDiv > p{
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.sevenDiv1{
+    display: flex;
+}
+
+.sevenDiv1 > div{
+    width: 194px;
+    height: 110px;
+    border-radius: 1ch;
+   background-color: white;
+    margin: 2px;
+    border: 0.5px solid rgb(66, 66, 66);
+}
+
+.sevenDiv2{
+width: 193px;
+height: 60px;
+background-color: rgb(202, 202, 202);
+border-bottom: 1px brown;
+border-radius: 1ch;
+}
+/* Eigth Div Customisation start form here */
+
+.eightDiv{
+    width: 600px;
+    height: 50px;
+    background-color: white;
+}
+
+.eightDiv1{
+    display: flex;
+}
+
+.eightDiv1 > div{
+    width: 290px;
+    height: 40px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 1ch;
+    border: 1px pink;
+    color: black;
+    margin-top: 5px;
+    margin-left: 3px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
